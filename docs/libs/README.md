@@ -16,8 +16,9 @@
 * [**react-dnd**][2-7] - 拖拽实现。
 * [**react-helmet**][2-8] - 修改 html 的 header 内容。
 * [**react-click-outside**][2-9] - 点击外部组件。
-* [**rcSearchSelect**][2-10]  高性能下拉搜索选择器，但是目前不支持多选。
-*
+* [**rcSearchSelect**][2-10] - 高性能下拉搜索选择器，但是目前不支持多选。
+* [**ant-virtual-table**][2-11] - antd 虚拟表格。
+* [**react-keep-alive**][2-12] - 一个保持组件状态并避免重复重渲染的组件。
 
 ## vue 相关库
 
@@ -103,6 +104,8 @@
 [2-8]:	https://github.com/nfl/react-helmet
 [2-9]:  https://github.com/tj/react-click-outside
 [2-10]: https://github.com/ctq123/rcSearchSelect
+[2-11]: https://github.com/ctq123/ant-virtual-table
+[2-12]: https://github.com/StructureBuilder/react-keep-alive
 [3-1]:	https://github.com/vuejs/vue-router
 [3-2]:	https://github.com/TerryZ/v-region
 [3-3]:	https://github.com/tower1229/Vue-Giant-Tree
