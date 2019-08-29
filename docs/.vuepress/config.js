@@ -21,23 +21,11 @@ module.exports = {
       { text: '工具', link: '/tools/' },
       { text: '前端积累', link: '/accumulate/' },
       { text: '代码块', link: '/codeBlock/' },
-      { text: 'Github', link: 'https://github.com/ly2011' }
+      { text: 'Github', link: 'https://github.com/ly2011/awesome-libs' }
     ],
-    sidebar: {
-      '/libs/': []
-    },
-    sidebarDepth: 2,
-    lastUpdated: 'Last Updated' // 文档更新时间：每个文件git最后提交的时间
+    sidebar: [['/accumulate/JS/canvas和img日常转换操作', 'canvas和img日常转换操作']],
+    sidebarDepth: 3,
+    lastUpdated: '最后更新时间' // 文档更新时间：每个文件git最后提交的时间
   },
-  plugins: [
-    '@vuepress/back-to-top',
-    '@vuepress/active-header-links',
-    '@vuepress/medium-zoom',
-    [
-      '@vuepress/search',
-      {
-        searchMaxSuggestions: 10
-      }
-    ]
-  ]
+  plugins: ['@vuepress/back-to-top', '@vuepress/medium-zoom']
 }

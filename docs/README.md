@@ -1,21 +1,16 @@
 ---
 home: true
 # heroImage: /home.png
-title: a
-actionText: 前端库 →
+actionText: 开始阅读 →
 actionLink: /libs/
 features:
-  - title: 丰富功能
-    details: 提炼了典型的业务模型，提供了丰富的功能组件
-  - title: 最佳实践
-    details: 合理的框架选择，良好的工程实践助你持续产出高质量代码
-  - title: 最新技术栈
-    details: 使用 vue/vuex/vue-router/element 等前端前沿技术开发
-  - title: 权限验证
-    details: 根据权限动态加载路由，渲染侧边栏
-  - title: 国际化
-    details: 内建业界通用的国际化方案
-  - title: 主题
-    details: 支持多种动态换肤功能
+  - title: 前端库
+    details: 整理我平时关注的前端库。
+  - title: 前端进阶积累
+    details: 在纷乱的前端娱乐圈，专注js基础，打磨核心竞争力，一通百通，无惧工具/框架变迁。
+  - title: 算法
+    details: 算法文档按照难度分级，代码中都有详细注释，且会提供多种解法，用以提升编程能力和逻辑能力比较有效的一种方式。
+  - title: 代码块
+    details: 比较小的代码块/知识点，一段话，一段代码就能说清楚, 开箱即用！
 footer: MIT Licensed | Copyright © 2019-present ly2011
 ---
