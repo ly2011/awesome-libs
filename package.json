@@ -13,6 +13,7 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0-rc.1",
     "@vuepress/plugin-medium-zoom": "^1.0.0-rc.1",
+    "tiny-glob": "^0.2.6",
     "vuepress": "^1.0.3"
   }
 }

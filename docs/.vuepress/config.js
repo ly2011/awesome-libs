@@ -1,3 +1,27 @@
+const glob = require('tiny-glob')
+const path = require('path')
+
+const basePath = '/docs/'
+
+const generateCommonSideBar = async (dir = '/') => {
+  try {
+    let currPath = basePath + dir
+    console.log('currPath: ', currPath)
+    let files = await glob(`${currPath}/**/*.{js,md}`)
+    files = files.filter(file => !file.includes('README.md')).map(file => file.replace('docs', ''))
+    console.log('generateCommonSideBar: ', files)
+    let sidebars = files.map(file => {
+      let baseName = path.basename(file, '.md')
+      return [file, baseName]
+    })
+    return sidebars
+  } catch (error) {
+    return undefined
+  }
+}
+
+// generateCommonSideBar('accumulate/')
+
 module.exports = {
   title: '前端常用库',
   description: '整理我平时关注的前端库',
@@ -23,7 +47,8 @@ module.exports = {
       { text: '代码块', link: '/codeBlock/' },
       { text: 'Github', link: 'https://github.com/ly2011/awesome-libs' }
     ],
-    sidebar: [['/accumulate/JS/canvas和img日常转换操作', 'canvas和img日常转换操作']],
+    // sidebar: { '/accumulate/': [['JS/canvas和img日常转换操作', 'canvas和img日常转换操作']] },
+    sidebar: { '/accumulate/': [generateCommonSideBar('accumulate/')] },
     sidebarDepth: 3,
     lastUpdated: '最后更新时间' // 文档更新时间：每个文件git最后提交的时间
   },

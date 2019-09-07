@@ -3255,6 +3255,11 @@ globals@^11.1.0:
   resolved "https://registry.npm.taobao.org/globals/download/globals-11.12.0.tgz?cache=0&sync_timestamp=1563721993391&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fglobals%2Fdownload%2Fglobals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha1-q4eVM4hooLq9hSV1gBjCp+uVxC4=
 
+globalyzer@^0.1.0:
+  version "0.1.4"
+  resolved "https://registry.npm.taobao.org/globalyzer/download/globalyzer-0.1.4.tgz#bc8e273afe1ac7c24eea8def5b802340c5cc534f"
+  integrity sha1-vI4nOv4ax8JO6o3vW4AjQMXMU08=
+
 globby@^6.1.0:
   version "6.1.0"
   resolved "https://registry.npm.taobao.org/globby/download/globby-6.1.0.tgz#f5a6d70e8395e21c858fb0489d64df02424d506c"
@@ -3291,6 +3296,11 @@ globby@^9.2.0:
     ignore "^4.0.3"
     pify "^4.0.1"
     slash "^2.0.0"
+
+globrex@^0.1.1:
+  version "0.1.2"
+  resolved "https://registry.npm.taobao.org/globrex/download/globrex-0.1.2.tgz#dd5d9ec826232730cd6793a5e33a9302985e6098"
+  integrity sha1-3V2eyCYjJzDNZ5Ol4zqTApheYJg=
 
 good-listener@^1.2.2:
   version "1.2.2"
@@ -6679,6 +6689,14 @@ tiny-emitter@^2.0.0:
   version "2.1.0"
   resolved "https://registry.npm.taobao.org/tiny-emitter/download/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
   integrity sha1-HRpW7fxRxD6GPLtTgqcjMONVVCM=
+
+tiny-glob@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.npm.taobao.org/tiny-glob/download/tiny-glob-0.2.6.tgz#9e056e169d9788fe8a734dfa1ff02e9b92ed7eda"
+  integrity sha1-ngVuFp2XiP6Kc036H/Aum5Ltfto=
+  dependencies:
+    globalyzer "^0.1.0"
+    globrex "^0.1.1"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"

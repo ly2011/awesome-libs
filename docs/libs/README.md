@@ -32,6 +32,10 @@ sidebar: auto
 * [**v-org-tree**][3-4] - 组织结构树组件，支持自定义节点和收缩按钮，高自由度定制，有水平和垂直两种方向。
 * [**vue-page-stack**][3-5] - Vue 单页应用导航管理器。
 * [**vue-stack-router**][3-6] - Vue 单页应用导航管理器。
+* [**vue-awesome-swiper**][3-7] - Vue 移动端轮播图。
+* [**vee-validate**][3-8] - Vue 校验库。
+* [**vue-lazyload**][3-9] - Vue 懒加载。
+* [**vue-quill-editor**][3-10] - Vue 富文本编辑器。
 
 ## 工具类
 
@@ -93,6 +97,10 @@ sidebar: auto
 * [**ink**][9-21] - 用 React 处理命令行输出。
 * [**figures**][9-22] - ✔︎ 等特殊字符，做了 windows 兼容处理。
 
+## 组件库
+
+* [**ant-design**][10-1] - antd 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。
+
 
 [1-1]:	https://github.com/facebook/react
 [1-2]:	https://github.com/vuejs/vue
@@ -116,6 +124,10 @@ sidebar: auto
 [3-4]:	https://github.com/lison16/v-org-tree
 [3-5]:	https://github.com/hezhongfeng/vue-page-stack
 [3-6]:  https://github.com/luojilab/vue-stack-router
+[3-7]:  https://github.com/surmon-china/vue-awesome-swiper
+[3-8]:  https://github.com/logaretm/vee-validate
+[3-9]:  https://github.com/hilongjw/vue-lazyload
+[3-10]: https://github.com/surmon-china/vue-quill-editor
 [4-1]:	https://github.com/mariocasciaro/object-path
 [4-2]:  https://github.com/internet5/smart-array-to-tree
 [5-1]:  https://github.com/reduxjs/redux
@@ -157,3 +169,4 @@ sidebar: auto
 [9-20]:	https://github.com/epoberezkin/ajv
 [9-21]:	https://github.com/vadimdemedes/ink
 [9-22]:	https://github.com/sindresorhus/figures
+[10-1]: https://ant.design/docs/react/introduce-cn
