@@ -36,6 +36,8 @@ sidebar: auto
 * [**vee-validate**][3-8] - Vue 校验库。
 * [**vue-lazyload**][3-9] - Vue 懒加载。
 * [**vue-quill-editor**][3-10] - Vue 富文本编辑器。
+* [**vue-ueditor-wrap**][3-11] - Vue + UEditor + v-model 双向绑定的富文本编辑器。
+
 
 ## 工具类
 
@@ -128,6 +130,7 @@ sidebar: auto
 [3-8]:  https://github.com/logaretm/vee-validate
 [3-9]:  https://github.com/hilongjw/vue-lazyload
 [3-10]: https://github.com/surmon-china/vue-quill-editor
+[3-11]: https://github.com/HaoChuan9421/vue-ueditor-wrap
 [4-1]:	https://github.com/mariocasciaro/object-path
 [4-2]:  https://github.com/internet5/smart-array-to-tree
 [5-1]:  https://github.com/reduxjs/redux
