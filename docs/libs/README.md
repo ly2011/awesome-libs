@@ -38,6 +38,8 @@ sidebar: auto
 * [**vue-quill-editor**][3-10] - Vue 富文本编辑器。
 * [**vue-ueditor-wrap**][3-11] - Vue + UEditor + v-model 双向绑定的富文本编辑器。
 * [**vxe-table**][3-12] - Vue 高性能表格组件(兼容element table的大多数写法)。
+* [**vue-directive-tooltip**][3-13] - Vue tooltip组件(封装于 popper.js，懒加载)。
+* [**vue-clipboard2**][3-14] - Vue 复制粘贴组件(封装于 clipboard.js)。
 
 
 ## 工具类
@@ -133,6 +135,8 @@ sidebar: auto
 [3-10]: https://github.com/surmon-china/vue-quill-editor
 [3-11]: https://github.com/HaoChuan9421/vue-ueditor-wrap
 [3-12]: https://github.com/xuliangzhan/vxe-table
+[3-13]: https://github.com/hekigan/vue-directive-tooltip
+[3-14]: https://github.com/Inndy/vue-clipboard2
 [4-1]:	https://github.com/mariocasciaro/object-path
 [4-2]:  https://github.com/internet5/smart-array-to-tree
 [5-1]:  https://github.com/reduxjs/redux
