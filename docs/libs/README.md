@@ -40,6 +40,7 @@ sidebar: auto
 - [**vxe-table**][3-12] - Vue 高性能表格组件(兼容 element table 的大多数写法)。
 - [**vue-directive-tooltip**][3-13] - Vue tooltip 组件(封装于 popper.js，懒加载)。
 - [**vue-clipboard2**][3-14] - Vue 复制粘贴组件(封装于 clipboard.js)。
+- [**wl-tree-transfer**][3-15] - 一个基于vue和element-ui的树形穿梭框及邮件通讯录。
 
 ## 工具类
 
@@ -141,6 +142,7 @@ sidebar: auto
 [3-12]: https://github.com/xuliangzhan/vxe-table
 [3-13]: https://github.com/hekigan/vue-directive-tooltip
 [3-14]: https://github.com/Inndy/vue-clipboard2
+[3-15]: https://github.com/hql7/wl-tree-transfer
 [4-1]: https://github.com/mariocasciaro/object-path
 [4-2]: https://github.com/internet5/smart-array-to-tree
 [5-1]: https://github.com/reduxjs/redux
