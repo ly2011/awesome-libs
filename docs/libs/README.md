@@ -23,6 +23,8 @@ sidebar: auto
 - [**rcSearchSelect**][2-10] - 高性能下拉搜索选择器，但是目前不支持多选。
 - [**ant-virtual-table**][2-11] - antd 虚拟表格。
 - [**react-keep-alive**][2-12] - 一个保持组件状态并避免重复重渲染的组件。
+- [**umi-plugin-cache-route**][2-13] - 一个保持组件状态并避免重复重渲染的插件。
+- [**echarts-for-react**][2-14] - 一个简单的 echarts(v3.0 & v4.0) 的 react 封装。
 
 ## vue 相关库
 
@@ -40,7 +42,7 @@ sidebar: auto
 - [**vxe-table**][3-12] - Vue 高性能表格组件(兼容 element table 的大多数写法)。
 - [**vue-directive-tooltip**][3-13] - Vue tooltip 组件(封装于 popper.js，懒加载)。
 - [**vue-clipboard2**][3-14] - Vue 复制粘贴组件(封装于 clipboard.js)。
-- [**wl-tree-transfer**][3-15] - 一个基于vue和element-ui的树形穿梭框及邮件通讯录。
+- [**wl-tree-transfer**][3-15] - 一个基于 vue 和 element-ui 的树形穿梭框及邮件通讯录。
 
 ## 工具类
 
@@ -128,6 +130,8 @@ sidebar: auto
 [2-10]: https://github.com/ctq123/rcSearchSelect
 [2-11]: https://github.com/ctq123/ant-virtual-table
 [2-12]: https://github.com/StructureBuilder/react-keep-alive
+[2-13]: https://www.npmjs.com/package/umi-plugin-cache-route
+[2-14]: https://github.com/hustcc/echarts-for-react
 [3-1]: https://github.com/vuejs/vue-router
 [3-2]: https://github.com/TerryZ/v-region
 [3-3]: https://github.com/tower1229/Vue-Giant-Tree
