@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>几个经常在H5移动端开发遇到的东西 | 前端常用库</title>
+    <meta name="description" content="整理我平时关注的前端库">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
+    <link rel="preload" href="/awesome-libs/assets/css/0.styles.c51ccda3.css" as="style"><link rel="preload" href="/awesome-libs/assets/js/app.47e6b673.js" as="script"><link rel="preload" href="/awesome-libs/assets/js/2.40fb906e.js" as="script"><link rel="preload" href="/awesome-libs/assets/js/8.8e10435f.js" as="script"><link rel="prefetch" href="/awesome-libs/assets/js/10.77c561da.js"><link rel="prefetch" href="/awesome-libs/assets/js/11.d97e4ec7.js"><link rel="prefetch" href="/awesome-libs/assets/js/12.78f09f6a.js"><link rel="prefetch" href="/awesome-libs/assets/js/13.447f8c3b.js"><link rel="prefetch" href="/awesome-libs/assets/js/3.2910e483.js"><link rel="prefetch" href="/awesome-libs/assets/js/4.8136a1f1.js"><link rel="prefetch" href="/awesome-libs/assets/js/5.3ca466e8.js"><link rel="prefetch" href="/awesome-libs/assets/js/6.08b23b16.js"><link rel="prefetch" href="/awesome-libs/assets/js/7.9d8f0451.js"><link rel="prefetch" href="/awesome-libs/assets/js/9.c5cd7c53.js">
+    <link rel="stylesheet" href="/awesome-libs/assets/css/0.styles.c51ccda3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/awesome-libs/" class="home-link router-link-active"><!----> <span class="site-name">前端常用库</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/awesome-libs/" class="nav-link">主页</a></div><div class="nav-item"><a href="/awesome-libs/libs/" class="nav-link">前端库</a></div><div class="nav-item"><a href="/awesome-libs/tools/" class="nav-link">工具</a></div><div class="nav-item"><a href="/awesome-libs/accumulate/" class="nav-link router-link-active">前端积累</a></div><div class="nav-item"><a href="/awesome-libs/codeBlock/" class="nav-link">代码块</a></div><div class="nav-item"><a href="https://github.com/ly2011/awesome-libs" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/awesome-libs/" class="nav-link">主页</a></div><div class="nav-item"><a href="/awesome-libs/libs/" class="nav-link">前端库</a></div><div class="nav-item"><a href="/awesome-libs/tools/" class="nav-link">工具</a></div><div class="nav-item"><a href="/awesome-libs/accumulate/" class="nav-link router-link-active">前端积累</a></div><div class="nav-item"><a href="/awesome-libs/codeBlock/" class="nav-link">代码块</a></div><div class="nav-item"><a href="https://github.com/ly2011/awesome-libs" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>JS</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/awesome-libs/accumulate/JS/canvas和img日常转换操作.html" class="sidebar-link">canvas和img日常转换操作</a></li><li><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html" class="active sidebar-link">几个经常在H5移动端开发遇到的东西</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html#几个经常在-h5-移动端开发遇到的东西" class="sidebar-link">几个经常在 H5 移动端开发遇到的东西</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html#_1-弹出数字键盘" class="sidebar-link">1. 弹出数字键盘</a></li><li class="sidebar-sub-header"><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html#_2-调用系统的某些功能" class="sidebar-link">2. 调用系统的某些功能</a></li><li class="sidebar-sub-header"><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html#_3-打开原生应用" class="sidebar-link">3. 打开原生应用</a></li><li class="sidebar-sub-header"><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html#_4-解决-active-伪类失效" class="sidebar-link">4. 解决 active 伪类失效</a></li><li class="sidebar-sub-header"><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html#_5-忽略自动识别" class="sidebar-link">5. 忽略自动识别</a></li><li class="sidebar-sub-header"><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html#_6-解决-input-失焦后页面没有回弹" class="sidebar-link">6. 解决 input 失焦后页面没有回弹</a></li><li class="sidebar-sub-header"><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html#_6-禁止长按" class="sidebar-link">6. 禁止长按</a></li><li class="sidebar-sub-header"><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html#_7-滑动不顺畅，粘手" class="sidebar-link">7. 滑动不顺畅，粘手</a></li><li class="sidebar-sub-header"><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html#_8-屏幕旋转为横屏时，字体大小会变" class="sidebar-link">8. 屏幕旋转为横屏时，字体大小会变</a></li><li class="sidebar-sub-header"><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html#_9-最简单的-rem-自适应" class="sidebar-link">9. 最简单的 rem 自适应</a></li><li class="sidebar-sub-header"><a href="/awesome-libs/accumulate/JS/几个经常在H5移动端开发遇到的东西.html#_10-滑动穿透" class="sidebar-link">10. 滑动穿透</a></li></ul></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="几个经常在-h5-移动端开发遇到的东西"><a href="#几个经常在-h5-移动端开发遇到的东西" aria-hidden="true" class="header-anchor">#</a> 几个经常在 H5 移动端开发遇到的东西</h2> <h3 id="_1-弹出数字键盘"><a href="#_1-弹出数字键盘" aria-hidden="true" class="header-anchor">#</a> 1. 弹出数字键盘</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;!-- 有&quot;#&quot; &quot;*&quot;符号输入 --&gt;
+&lt;input type=&quot;tel&quot;&gt;
+
+&lt;!-- 纯数字 --&gt;
+&lt;input pattern=&quot;\d*&quot;&gt;
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><code>安卓</code>跟<code>IOS</code>的表现形式应该不一样，大家可以自己试试。当运用了正则<code>pattern</code>后，就不用关注<code>input</code>的类型了 😂</p> <p><img src="https://user-gold-cdn.xitu.io/2019/10/8/16daa71523d081f1?imageslim" alt="img"></p> <h3 id="_2-调用系统的某些功能"><a href="#_2-调用系统的某些功能" aria-hidden="true" class="header-anchor">#</a> 2. 调用系统的某些功能</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;!-- 拨号 --&gt;
+&lt;a href=&quot;tel:10086&quot;&gt;打电话给: 10086&lt;/a&gt;
+
+&lt;!-- 发送短信 --&gt;
+&lt;a href=&quot;sms:10086&quot;&gt;发短信给: 10086&lt;/a&gt;
+
+&lt;!-- 发送邮件 --&gt;
+&lt;a href=&quot;mailto:839626987@qq.com&quot;&gt;发邮件给：839626987@qq.com&lt;/a&gt;
+
+&lt;!-- 选择照片或者拍摄照片 --&gt;
+&lt;input type=&quot;file&quot; accept=&quot;image/*&quot;&gt;
+
+&lt;!-- 选择视频或者拍摄视频 --&gt;
+&lt;input type=&quot;file&quot; accept=&quot;video/*&quot;&gt;
+
+&lt;!-- 多选 --&gt;
+&lt;input type=&quot;file&quot; multiple&gt;
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><p>同上 🤦‍♂️</p> <p><img src="https://user-gold-cdn.xitu.io/2019/10/8/16daa7189f490f83?imageslim" alt="img"></p> <h3 id="_3-打开原生应用"><a href="#_3-打开原生应用" aria-hidden="true" class="header-anchor">#</a> 3. 打开原生应用</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;a href=&quot;weixin://&quot;&gt;打开微信&lt;/a&gt;
+&lt;a href=&quot;alipays://&quot;&gt;打开支付宝&lt;/a&gt;
+&lt;a href=&quot;alipays://platformapi/startapp?saId=10000007&quot;&gt;打开支付宝的扫一扫功能&lt;/a&gt;
+&lt;a href=&quot;alipays://platformapi/startapp?appId=60000002&quot;&gt;打开支付宝的蚂蚁森林&lt;/a&gt;
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>这种方式叫做<code>URL Scheme</code>，是一种协议，一般用来访问<code>APP</code>或者<code>APP</code>中的某个功能/页面（如唤醒<code>APP</code>后打开指定页面或者使用某些功能）😒</p> <p><code>URL Scheme</code>的基本格式如下：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>     行为(应用的某个功能/页面)
+            |
+scheme://[path][?query]
+   |               |
+应用标识       功能需要的参数
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>一般是由<code>APP</code>开发者自己定义，比如规定一些<code>参数</code>或者<code>路径</code>让其他开发者来访问，就像上面的例子 🍤</p> <p>注意事项：</p> <ul><li>唤醒<code>APP</code>的条件是你的手机已经安装了该<code>APP</code></li> <li>某些浏览器会禁用此协议，比如微信内部浏览器（除非开了白名单）</li></ul> <p>![img](data:image/svg+xml;utf8,&lt;?xml version=&quot;1.0&quot;?&gt;<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="323" height="581"></svg>)</p> <p>后面应该会专门写一篇文章用来探讨唤醒<code>APP</code>😒</p> <h3 id="_4-解决-active-伪类失效"><a href="#_4-解决-active-伪类失效" aria-hidden="true" class="header-anchor">#</a> 4. 解决 active 伪类失效</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;body ontouchstart&gt;&lt;/body&gt;
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>给<code>body</code>注册一个空事件即可 😂</p> <h3 id="_5-忽略自动识别"><a href="#_5-忽略自动识别" aria-hidden="true" class="header-anchor">#</a> 5. 忽略自动识别</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;!-- 忽略浏览器自动识别数字为电话号码 --&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;telephone=no&quot;&gt;
+
+&lt;!-- 忽略浏览器自动识别邮箱账号 --&gt;
+&lt;meta name=&quot;format-detection&quot; content=&quot;email=no&quot;&gt;
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>当页面上的内容包含了<code>手机号/邮箱</code>等，会自动转换成可点击的链接 😁</p> <p>比如你有如下代码：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;p&gt;13192733603&lt;/P&gt;
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>但是有些浏览器会识别为手机，并且可以点击拨号 😒</p> <h3 id="_6-解决-input-失焦后页面没有回弹"><a href="#_6-解决-input-失焦后页面没有回弹" aria-hidden="true" class="header-anchor">#</a> 6. 解决 input 失焦后页面没有回弹</h3> <p>![img](data:image/svg+xml;utf8,&lt;?xml version=&quot;1.0&quot;?&gt;<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="580"></svg>)</p> <p>一般出现在<code>IOS设备中的微信内部浏览器</code>，出现的条件为：</p> <ul><li>页面高度过小</li> <li>聚焦时，页面需要往上移动的时候</li></ul> <p>所以一般<code>input</code>在页面上方或者顶部都不会出现无法回弹 🤣</p> <p>解决办法为，在聚焦时，获取当前滚动条高度，然后失焦时，赋值之前获取的高度：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;template&gt;
+  &lt;input type=&quot;text&quot; @focus=&quot;focus&quot; @blur=&quot;blur&quot;&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+  export default {
+    data() {
+      return {
+        scrollTop: 0
+      }
+    },
+
+    methods: {
+      focus() {
+        this.scrollTop = document.scrollingElement.scrollTop;
+      },
+
+      blur() {
+        document.scrollingElement.scrollTo(0, this.scrollTop);
+      }
+    }
+  }
+&lt;/script&gt;
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><h3 id="_6-禁止长按"><a href="#_6-禁止长按" aria-hidden="true" class="header-anchor">#</a> 6. 禁止长按</h3> <p>![img](data:image/svg+xml;utf8,&lt;?xml version=&quot;1.0&quot;?&gt;<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="320" height="580"></svg>)</p> <p>以上行为可以总结成这几个（每个手机以及浏览器的表现形式不一样）：<code>长按图片保存</code>、<code>长按选择文字</code>、<code>长按链接/手机号/邮箱时呼出菜单</code>。</p> <p>想要禁止这些浏览器的默认行为，可以使用以下<code>CSS</code>：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 禁止长按图片保存
+img {
+  -webkit-touch-callout: none;
+  pointer-events: none; // 像微信浏览器还是无法禁止，加上这行样式即可
+}
+
+// 禁止长按选择文字
+div {
+  -webkit-user-select: none;
+}
+
+// 禁止长按呼出菜单
+div {
+  -webkit-touch-callout: none;
+}
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h3 id="_7-滑动不顺畅，粘手"><a href="#_7-滑动不顺畅，粘手" aria-hidden="true" class="header-anchor">#</a> 7. 滑动不顺畅，粘手</h3> <p>一般出现在<code>IOS</code>设备中，自定义盒子使用了<code>overflow: auto || scroll</code>后出现的情况。</p> <p>优化代码：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>div {
+  -webkit-overflow-scrolling: touch;
+}
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="_8-屏幕旋转为横屏时，字体大小会变"><a href="#_8-屏幕旋转为横屏时，字体大小会变" aria-hidden="true" class="header-anchor">#</a> 8. 屏幕旋转为横屏时，字体大小会变</h3> <p>具体出现的情况不明 😒，有时候有有时候没有，欢迎指出。</p> <p>优化代码：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>* {
+  -webkit-text-size-adjust: 100%;
+}
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="_9-最简单的-rem-自适应"><a href="#_9-最简单的-rem-自适应" aria-hidden="true" class="header-anchor">#</a> 9. 最简单的 rem 自适应</h3> <p>大家都知道，<code>rem</code>的值是根据<code>根元素的字体大小</code>相对计算的，但是我们每个设备的大小不一样，所以<code>根元素的字体大小</code>要动态设置 😂</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>html {
+ font-size: calc(100vw / 3.75);
+}
+
+body {
+  font-size: .14rem;
+}
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>效果如下：</p> <p>![img](data:image/svg+xml;utf8,&lt;?xml version=&quot;1.0&quot;?&gt;<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1025" height="363"></svg>)</p> <p>像我一般的话，直接搞<code>lib-flexible</code>、<code>postcss-pxtorem</code>就完事啦！</p> <h3 id="_10-滑动穿透"><a href="#_10-滑动穿透" aria-hidden="true" class="header-anchor">#</a> 10. 滑动穿透</h3> <p>当你想在出现<code>遮罩</code>的时候，锁住用户的滚动行为，你可以这么做。</p> <p>假设<code>HTML</code>结构如下：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;div class=&quot;mask&quot;&gt;
+  &lt;div class=&quot;content&quot;&gt;我是弹框&lt;/div&gt;
+&lt;/div&gt;
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><code>CSS</code>样式如下：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #333, $alpha: .6);
+
+  .content {
+    padding: 20px;
+    background-color: #fff;
+    width: 300px;
+  }
+}
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><p>效果如下：</p> <p><img src="https://user-gold-cdn.xitu.io/2019/10/8/16daa7865c5fba56?imageslim" alt="img"></p> <p>可以看到，当在<code>遮罩</code>上滑动的时候，是会穿透到父节点的，最简单的办法就是阻住默认行为：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>document.querySelector(&quot;.mask&quot;).addEventListener(&quot;touchmove&quot;, event =&gt; {
+  event.preventDefault();
+});
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>如果在<code>vue</code>中，你可以这么写：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;div class=&quot;mask&quot; @touchumove.prevent&gt;&lt;/div&gt;
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>如果<code>.content</code>也有滚动条，那么只要阻止<code>遮罩</code>本身就行：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>document.querySelector(&quot;.mask&quot;).addEventListener(&quot;touchmove&quot;, event =&gt; {
+  if (event.target.classList.contains(&quot;mask&quot;)) event.preventDefault();
+});
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>或者：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;div class=&quot;mask&quot; @touchumove.self.prevent&gt;&lt;/div&gt;
+复制代码
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>这样，当出现<code>遮罩</code>的时候用户的滑动就会被锁住啦 👌</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最后更新时间: </span> <span class="time">10/11/2019, 10:42:22 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/awesome-libs/accumulate/JS/canvas和img日常转换操作.html" class="prev">
+          canvas和img日常转换操作
+        </a></span> <!----></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/awesome-libs/assets/js/app.47e6b673.js" defer></script><script src="/awesome-libs/assets/js/2.40fb906e.js" defer></script><script src="/awesome-libs/assets/js/8.8e10435f.js" defer></script>
+  </body>
+</html>

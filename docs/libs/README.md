@@ -25,6 +25,7 @@ sidebar: auto
 - [**react-keep-alive**][2-12] - 一个保持组件状态并避免重复重渲染的组件。
 - [**umi-plugin-cache-route**][2-13] - 一个保持组件状态并避免重复重渲染的插件。
 - [**echarts-for-react**][2-14] - 一个简单的 echarts(v3.0 & v4.0) 的 react 封装。
+- [**react-base-table**][2-15] - React 高性能表格组件。
 
 ## vue 相关库
 
@@ -132,6 +133,7 @@ sidebar: auto
 [2-12]: https://github.com/StructureBuilder/react-keep-alive
 [2-13]: https://www.npmjs.com/package/umi-plugin-cache-route
 [2-14]: https://github.com/hustcc/echarts-for-react
+[2-15]: https://github.com/Autodesk/react-base-table
 [3-1]: https://github.com/vuejs/vue-router
 [3-2]: https://github.com/TerryZ/v-region
 [3-3]: https://github.com/tower1229/Vue-Giant-Tree
