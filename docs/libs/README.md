@@ -115,6 +115,7 @@ sidebar: auto
 - [**wxa-plugin-canvas**][11-2] - 小程序组件-小程序海报组件
 - [**mp_canvas_drawer**][11-3] - 一个 json 帮你完成分享朋友圈图片
 - [**wxapp-qrcode**][11-4] - 微信小程序--二维码生成器
+- [**we-cropper**][11-5] - 微信小程序图片裁剪工具
 
 [1-1]: https://github.com/facebook/react
 [1-2]: https://github.com/vuejs/vue
@@ -197,3 +198,4 @@ sidebar: auto
 [11-2]: https://github.com/jasondu/wxa-plugin-canvas
 [11-3]: https://github.com/kuckboy1994/mp_canvas_drawer
 [11-4]: https://github.com/demi520/wxapp-qrcode
+[11-5]: https://github.com/we-plugin/we-cropper
