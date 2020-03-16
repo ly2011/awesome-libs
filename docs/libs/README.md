@@ -27,6 +27,7 @@ sidebar: auto
 - [**echarts-for-react**][2-14] - 一个简单的 echarts(v3.0 & v4.0) 的 react 封装。
 - [**react-base-table**][2-15] - React 高性能表格组件。
 - [**react-zmage**][2-16] - 一个基于 React 的可缩放图片控件。
+- [**react-file-viewer**][2-17] - 一个文件预览控件，支持 image/pdf/csv/xslx/docx/Video/Audio 等
 
 ## vue 相关库
 
@@ -137,6 +138,7 @@ sidebar: auto
 [2-14]: https://github.com/hustcc/echarts-for-react
 [2-15]: https://github.com/Autodesk/react-base-table
 [2-16]: https://github.com/Caldis/react-zmage
+[2-17]: https://github.com/plangrid/react-file-viewer
 [3-1]: https://github.com/vuejs/vue-router
 [3-2]: https://github.com/TerryZ/v-region
 [3-3]: https://github.com/tower1229/Vue-Giant-Tree
